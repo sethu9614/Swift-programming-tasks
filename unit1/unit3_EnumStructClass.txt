@@ -1,0 +1,42 @@
+01.Enum Direction Using Switch
+
+enum Direction {
+    case north, south, east, west
+}
+
+let direction = Direction.north
+
+switch direction {
+case .north: print("Going North")
+case .south: print("Going South")
+case .east: print("Going East")
+case .west: print("Going West")
+}
+
+02.Enum Weekday with Raw Values
+
+enum Weekday: Int {
+    case monday = 1, tuesday, wednesday, thursday
+    case friday, saturday, sunday
+}
+
+let day = Weekday.monday
+print(day.rawValue)
+
+if let weekday = Weekday(rawValue: 5) {
+    print(weekday)
+}
+
+03.Struct Student with Two Instances
+
+struct Student {
+    var name: String
+    var rollNumber: Int
+    var marks: Double
+}
+
+let s1 = Student(name: "Arun", rollNumber: 101, marks: 85)
+let s2 = Student(name: "Bala", rollNumber: 102, marks: 75)
+
+print(s1.name, s1.rollNumber, s1.marks)
+print(s2.name, s2.rollNumber, s2.marks)
