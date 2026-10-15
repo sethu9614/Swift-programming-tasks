@@ -1,1 +1,77 @@
 
+01.Positive, Negative or Zero
+
+let number = -5
+
+if number > 0 {
+    print("Positive")
+} else if number < 0 {
+    print("Negative")
+} else {
+    print("Zero")
+}
+
+02.Even or Odd
+
+let number = 7
+
+if number % 2 == 0 {
+    print("Even")
+} else {
+    print("Odd")
+}
+
+03.Student Grade
+
+let mark = 85
+
+if mark >= 90 {
+    print("A")
+} else if mark >= 80 {
+    print("B")
+} else if mark >= 70 {
+    print("C")
+} else if mark >= 60 {
+    print("D")
+} else {
+    print("F")
+}
+
+04.Day Name Using Switch
+
+let day = 3
+
+switch day {
+case 1: print("Monday")
+case 2: print("Tuesday")
+case 3: print("Wednesday")
+case 4: print("Thursday")
+case 5: print("Friday")
+case 6: print("Saturday")
+case 7: print("Sunday")
+default: print("Invalid")
+}
+
+05.Print Numbers 1 to 10 Using For-In Loop
+
+for i in 1...10 {
+    print(i)
+}
+
+06.Multiplication Table up to 10
+
+let number = 5
+
+for i in 1...10 {
+    print("\(number) x \(i) = \(number * i)")
+}
+
+08.Print Numbers 10 to 1 Using While Loop
+
+var i = 10
+
+while i >= 1 {
+    print(i)
+    i -= 1
+}
+
