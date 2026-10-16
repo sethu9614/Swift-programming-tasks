@@ -1,0 +1,11 @@
+
+import Foundation
+
+var cart = ["Laptop", "Mouse", "Keyboard"]
+
+cart.append("Headphones")
+cart.insert("Monitor", at: 1)
+cart.remove(at: 2)
+
+print("Shopping Cart:", cart)
+print("Item Count:", cart.count)
