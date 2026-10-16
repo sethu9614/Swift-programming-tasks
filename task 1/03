@@ -1,0 +1,14 @@
+
+import Foundation
+
+var students = [String]()
+
+students.append("Arun")
+students.append("Bala")
+students.append("Kumar")
+students.append("Ravi")
+
+students.remove(at: 1)
+
+print("Student List:", students)
+print("Student Count:", students.count)
